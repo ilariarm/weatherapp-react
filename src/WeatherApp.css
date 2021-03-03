@@ -1,0 +1,54 @@
+.weather-app {
+  border: 1px solid #0141b1;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-image: linear-gradient(to top, #f3dbf3 0%, #b4eaf0 100%);
+}
+
+body {
+  color: #1c59c4;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  color: #0141b1;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+ul {
+  font-family: "Raleway", sans-serif;
+  margin: 0 0 10px;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  display: block;
+  color: #1c59c4;
+  font-weight: 100;
+  line-height: 1;
+  height: 19px;
+  text-align: left;
+}
+h2 {
+  color: #0141b1;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+h3 {
+  color: #0141b1;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+}
+form {
+  margin-bottom: 20px;
+}

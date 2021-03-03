@@ -1,15 +1,51 @@
-import React from "react"; // eslint-disable-line
-import axios from "axios";
+import "./WeatherApp.css";
+import "./LocationDate.css";
+import "./Temperature.css";
+import "./Footer.css";
 
-export default function WeatherApp(props) {
-  function handleResponse(response) {
-    alert(
-      `The weather in ${response.data.name} is ${response.data.main.temp} degrees.`
-    );
-  }
+import LocationDate from "./LocationDate";
+import Temperature from "./Temperature";
+import Footer from "./Footer";
 
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=7d7f0db622e0aaac041c916319ba774a&units=metric`;
-  axios.get(apiUrl).then(handleResponse);
+export default function WeatherApp() {
+  return (
+    <div className="WeatherApp">
+      <div class="container">
+        <div class="weather-app">
+          <form class="search-form">
+            <div class="row">
+              <div class="col-4">
+                <input
+                  type="search"
+                  placeholder="Enter your city..."
+                  class="form-control"
+                  autoComplete="off"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="form-control btn btn-primary"
+                />
+              </div>
+              <div class="col-2">
+                <input
+                  class="btn btn-outline-primary"
+                  type="submit"
+                  value="📍"
+                  id="pin"
+                />
+              </div>
+            </div>
+          </form>
 
-  return null;
+          <LocationDate />
+
+          <Temperature />
+        </div>
+        <Footer />
+      </div>
+    </div>
+  );
 }
