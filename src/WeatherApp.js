@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; // eslint-disable-line
 import axios from "axios";
 
 export default function WeatherApp(props) {

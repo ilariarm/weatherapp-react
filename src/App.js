@@ -1,7 +1,10 @@
 import React from "react";
+
 import logo from "./logo.svg";
 import "./App.css";
 import WeatherApp from "./WeatherApp";
+
+// eslint-disable-line
 
 function App() {
   return (
