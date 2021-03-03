@@ -61,13 +61,9 @@ export default function Temperature() {
               <h3>1° | -3°</h3>
             </div>
             <div class="col">
-              <h2>Wed</h2>
+              <h2>Tue</h2>
               <img src={temperatureData.img} class="float-left" alt="" />
-              <h3>4° | -2°</h3>
-              <div class="col">
-              <h2>Wed</h2>
-              <img src={temperatureData.img} class="float-left" alt="" />
-              <h3>4° | -2°</h3>
+              <h3>1° | -3°</h3>
             </div>
           </div>
         </div>

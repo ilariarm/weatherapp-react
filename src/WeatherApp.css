@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
 .weather-app {
   border: 1px solid #0141b1;
   border-radius: 10px;
@@ -51,24 +53,4 @@ h3 {
 }
 form {
   margin-bottom: 20px;
-}
-.current-temperature {
-  color: #1c59c4;
-  font-size: 40px;
-  font-weight: 400;
-  user-select: none;
-  line-height: 1;
-}
-.current-temperature-box {
-  padding: 0 30px;
-}
-.current-temperature-box .active {
-  color: #1c59c4;
-  cursor: default;
-  text-decoration: none;
-}
-.units {
-  font-family: "Raleway", sans-serif;
-  position: relative;
-  top: -15px;
 }
