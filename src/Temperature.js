@@ -64,6 +64,10 @@ export default function Temperature() {
               <h2>Wed</h2>
               <img src={temperatureData.img} class="float-left" alt="" />
               <h3>4° | -2°</h3>
+              <div class="col">
+              <h2>Wed</h2>
+              <img src={temperatureData.img} class="float-left" alt="" />
+              <h3>4° | -2°</h3>
             </div>
           </div>
         </div>
