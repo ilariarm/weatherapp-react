@@ -2,10 +2,12 @@ import "./WeatherApp.css";
 import "./LocationDate.css";
 import "./Temperature.css";
 import "./Footer.css";
+import "./Comingdays.css";
 
 import LocationDate from "./LocationDate";
 import Temperature from "./Temperature";
 import Footer from "./Footer";
+import ComingdaysTemp from "./Comingdays";
 
 export default function WeatherApp() {
   return (
@@ -44,6 +46,8 @@ export default function WeatherApp() {
           <LocationDate />
 
           <Temperature />
+
+          <ComingdaysTemp />
         </div>
         <Footer />
       </div>
