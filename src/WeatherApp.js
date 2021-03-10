@@ -20,6 +20,7 @@ export default function WeatherApp() {
                   placeholder="Enter your city..."
                   class="form-control"
                   autoComplete="off"
+                  autoFocus="on"
                 />
               </div>
               <div class="col-3">

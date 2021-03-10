@@ -36,6 +36,10 @@ export default function Temperature() {
               Wind: <span class="wind"></span>
               {temperatureData.wind} km/h
             </li>
+            <li>
+              Precipitation: <span class="wind"></span>
+              {""} %
+            </li>
           </ul>
         </div>
         <div class="card text-center">
