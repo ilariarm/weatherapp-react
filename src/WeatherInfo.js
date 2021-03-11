@@ -4,6 +4,8 @@ import "./LocationDate.css";
 
 import LocationDate from "./LocationDate";
 
+import WeatherIcon from "./WeatherIcon";
+
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
@@ -14,11 +16,9 @@ export default function WeatherInfo(props) {
         <div class="row">
           <div class="col-6">
             <span class="current-temperature-box">
-              <img
-                src={props.data.iconUrl}
-                class="float-left"
-                alt={props.data.description}
-              />
+              <div className="float-left">
+                <WeatherIcon code={props.data.icon} />
+              </div>
               <span class="current-temperature">
                 {Math.round(props.data.temperature)}
               </span>

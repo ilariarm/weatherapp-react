@@ -21,16 +21,13 @@
   line-height: 1;
 }
 
-img {
-  width: 70px;
-  height: 70px;
+canvas {
   display: inline-block;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .card {
   padding: 20px;
   background-color: transparent;
   border-color: transparent;
-}
-h1 {
-  display: block;
 }
