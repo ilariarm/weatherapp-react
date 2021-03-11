@@ -25,7 +25,7 @@ export default function LocationDate(props) {
     <div className="LocationDate">
       <ul>
         <li>
-          {day} {hours}:{minutes}
+          {day}, h {hours}:{minutes}
         </li>
       </ul>
     </div>
