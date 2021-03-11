@@ -1,20 +1,31 @@
 import React from "react";
 import "./LocationDate.css";
 
-export default function LocationDate() {
-  let locationData = {
-    city: "Berlin",
-    date: "Friday, 12th February",
-    hour: "11:00",
-  };
+export default function LocationDate(props) {
+  let days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  let day = days[props.date.getDay()];
+  let hours = props.date.getHours();
+  if (hours < 10) {
+    hours = `0${hours}`;
+  }
+
+  let minutes = props.date.getMinutes();
+  if (minutes < 10) {
+    minutes = `0${minutes}`;
+  }
   return (
     <div className="LocationDate">
-      <h1>{locationData.city}</h1>
       <ul>
-        <li>{locationData.date}</li>
-        <li>{locationData.hour}</li>
         <li>
-          <span class="weather-description">{locationData.description}</span>
+          {day} {hours}:{minutes}
         </li>
       </ul>
     </div>
