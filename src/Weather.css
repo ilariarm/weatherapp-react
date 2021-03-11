@@ -1,12 +1,12 @@
 .current-temperature {
   color: #1c59c4;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: bold;
   line-height: 60px;
   user-select: none;
 }
 .current-temperature-box {
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .current-temperature-box .active {
   color: #1c59c4;
@@ -17,7 +17,7 @@
   font-family: "Raleway", sans-serif;
   position: relative;
   top: -15px;
-  font-weight: 400;
+  font-weight: 50;
   line-height: 1;
 }
 

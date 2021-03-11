@@ -5,6 +5,7 @@ import "./LocationDate.css";
 import LocationDate from "./LocationDate";
 
 import WeatherIcon from "./WeatherIcon";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
   return (
@@ -19,16 +20,7 @@ export default function WeatherInfo(props) {
               <div className="float-left">
                 <WeatherIcon code={props.data.icon} />
               </div>
-              <span class="current-temperature">
-                {Math.round(props.data.temperature)}
-              </span>
-              <span class="units">
-                °{" "}
-                <a href="/" class="active">
-                  C
-                </a>{" "}
-                |<a href="/">F</a>
-              </span>
+              <WeatherTemperature celsius={props.data.temperature} />
             </span>
           </div>
           <div class="col-6">
