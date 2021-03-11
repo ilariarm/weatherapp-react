@@ -6,7 +6,6 @@ export default function LocationDate() {
     city: "Berlin",
     date: "Friday, 12th February",
     hour: "11:00",
-    description: "Sunny",
   };
   return (
     <div className="LocationDate">

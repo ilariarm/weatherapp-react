@@ -45,7 +45,7 @@ export default function WeatherApp() {
 
           <LocationDate />
 
-          <Temperature />
+          <Temperature defaultCity="Berlin" />
 
           <ComingdaysTemp />
         </div>
