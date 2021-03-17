@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./WeatherForecasts.css";
-import WeatherIcon from "./WeatherIcon";
 import WeatherForecastPreview from "./WeatherForecastPreview";
 
 //http://api.openweathermap.org/data/2.5/forecast?q=berlin&appid=7d7f0db622e0aaac041c916319ba774a&units=metric

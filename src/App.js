@@ -5,7 +5,6 @@ import "./WeatherForecasts.css";
 
 import Weather from "./Weather";
 import Footer from "./Footer";
-import WeatherForecasts from "./WeatherForecasts";
 
 export default function App() {
   return (
