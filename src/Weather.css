@@ -6,11 +6,11 @@
   cursor: default;
   text-decoration: none;
 }
-.units {
+.unit {
   font-family: "Raleway", sans-serif;
+  line-height: 1;
   position: relative;
   top: -15px;
-  line-height: 1;
 }
 
 .temperature {
